@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+
+    background-color: aliceblue;
+}
+
+#teste {
+
+    background-size: 900px;
+    background-color: aquamarine;
+    margin-left: 60%;
+
+
+}
+
+h1 {
+
+    max-width: 400px;
+    margin-left: 40px;
+    margin-top: 30px;
+    line-height: 35px;
+    font-family: Kanit;
+
+
+}
+
+.container {
+
+    font-family: Kanit;
+    max-width: 400px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+
+input {
+
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border-color: black;
+}
+
+#resultado {
+    font-family: Kanit;
+    max-width: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+span {
+
+    color: red
+}
+
+button{
+
+border-radius: 10px;   
+margin-top: 15px;
+border-color: red;
+background-color: red;
+color: black;
+
+}
+
+button:hover{
+background-color: brown;
+color: black;
+
+}
+
+img{
+width: 250px;
+height: 200px;
+display: inline-flex;
+}
+
+@media (max-width: 700px) {
+
+    h1{
+
+margin-right: 50px;
+
+    }
+
+input{
+
+    max-width: 280px;
+
+}
+
+    }
